@@ -20,7 +20,7 @@ import cv2
 import re
 
 
-class webCamConnect:
+class WebCamConnect:
     def __init__(self, resolution=[640, 480], remoteAddress=("127.0.0.1", 7999), windowName="video_c"):
         self.remoteAddress = remoteAddress
         self.resolution = resolution
@@ -130,7 +130,7 @@ class webCamConnect:
 
 def main():
     print("创建连接...")
-    cam = webCamConnect()
+    cam = WebCamConnect()
     cam.check_config()
     print("像素为:%d * %d" % (cam.resolution[0], cam.resolution[1]))
     print("目标ip为%s:%d" % (cam.remoteAddress[0], cam.remoteAddress[1]))
