@@ -1,4 +1,4 @@
 w = 640,h = 480
 IP is 127.0.0.1:7999
 Save pic flag:0
-image's quality is:15,range(0~95)
+image's quality is:650,range(0~95)

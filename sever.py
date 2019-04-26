@@ -18,7 +18,7 @@ import os
 import numpy
 
 
-class webCamera:
+class WebCamera:
     def __init__(self, resolution=(640, 480), host=("127.0.0.1", 7999)):
         self.resolution = resolution
         self.host = host
@@ -91,7 +91,7 @@ class webCamera:
 
 
 def main():
-    cam = webCamera()
+    cam = WebCamera()
     cam.run()
 
 
